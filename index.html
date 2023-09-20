@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice of Text</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="nav">
+        
+           <button class="item1">View Source Code</button> 
+           <button class="item2">Sign Up</button> 
+           <button class="item3">Log In</button> 
+      
+    </div>
+
+    <div class="main">
+        <h2>Speech Text Reader</h2>
+        <button class="togger" id="togger" value="submit">Togger Text Box</button>
+
+        <div id="popup" class="hidden">
+            <button id="closePopup" ><i class="fa fa-times" aria-hidden="true"></i></button>
+            <div id="popupContent">
+               <h3>Choice Voice</h3>
+               <select id="lanaguge">
+                <option value="Google Deutsch">Google Deutsch de-DE</option>
+                <option value="Google US English">Google US English en-US</option>
+                <option value="Google UK English Female">Google UK English Female en-GB</option>
+                <option value="Google UK English Male">Google UK English Male en-GB</option>
+                <option value="Google español">Google español es-ES</option>
+                <option value="Google español de Estados Unidos">Google español de Estados Unidos es-US</option>
+                <option value="Google français">Google français fr-FR</option>
+                <option value="Google हिन्दी">Google हिन्दी hi-IN</option>
+                <option value="Google Bahasa Indonesia">Google Bahasa Indonesia id-ID</option>
+                <option value="Google italiano">Google italiano it-IT</option>
+                <option value="Google 日本語">Google 日本語 ja-JP</option>
+                <option value="Google 한국의">Google 한국의 ko-KR</option>
+                <option value="Google Nederlands">Google Nederlands nl-NL</option>
+                <option value="Google polski">Google polski pl-PL</option>
+                <option value="Google português do Brasil">Google português do Brasil pt-BR</option>
+                <option value="strawberry">Strawberry</option>
+               </select>
+               <textarea name="text" id="textArea" cols="30" rows="10" placeholder="Enter text to read .."></textarea>
+                <button id="readText">Read Text</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="contain">
+
+        <div class="btn"><img src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/drink.jpg?raw=true" alt="I am Thirsty">
+        <p class="imgtext">I am Thirsty</p>
+        </div>
+
+        <div class="btn"><img src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/food.jpg?raw=true" alt="I am Hungry">
+         <p class="imgtext">I am Hungry</p>
+        </div>
+
+        <div class="btn"><img src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/tired.jpg?raw=true" alt="I am Tired">
+        <p class="imgtext">I am Tired</p>
+         </div>
+
+         <div class="btn"><img src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/hurt.jpg?raw=true" alt="I am Hurt">
+            <p class="imgtext">I am Hurt</p>
+        </div>
+
+        <div class="btn"><img src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/happy.jpg?raw=true" alt="I am Happy">
+        <p class="imgtext">I am Happy</p>
+        </div>
+
+        <div class="btn"><img src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/angry.jpg?raw=true"" alt="I am Angry">
+        <p class="imgtext">I am Angry</p>
+        </div>
+
+        <div class="btn"><img src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/sad.jpg?raw=true" alt="I am Sad">
+        <p class="imgtext">I am Sad</p>
+        </div>
+
+        <div class="btn"><img src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/scared.jpg?raw=true" alt="I am Scared">
+            <p class="imgtext">I am Scared</p>
+        </div>
+
+        <div class="btn"><img src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/outside.jpg?raw=true" alt="I Want to go outside">
+            <p class="imgtext">I am Scared</p>
+        </div>
+
+        <div class="btn"><img src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/home.jpg?raw=true" alt="I want to go Home">
+            <p class="imgtext">I want to go Home</p>
+        </div>
+
+        <div class="btn"><img src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/school.jpg?raw=true" alt="I want to go School">
+            <p class="imgtext">I want to go School</p>
+        </div>
+
+        <div class="btn"><img src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/grandma.jpg?raw=true" alt="I Want To Go To Grandmas">
+            <p class="imgtext">I Want To Go To Grandmas</p>
+        </div>
+    </div>
+</body>
+</html>
